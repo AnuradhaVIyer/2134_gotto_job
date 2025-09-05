@@ -1006,6 +1006,12 @@ nav[aria-label="breadcrumb"] {
   color: var(--dark-color);
 }
 
+.job-title {
+  font-size: 2rem;      /* ~32px */
+  font-weight: 700;
+}
+
+
 .job-thumb p {
   font-size: 18px;
 }
@@ -1553,5 +1559,9 @@ nav[aria-label="breadcrumb"] {
   .job-detail-share {
     margin: 20px auto 0 auto;
   }
+  
 }
+
+
+
 
