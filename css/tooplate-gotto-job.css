@@ -716,7 +716,22 @@ nav[aria-label="breadcrumb"] {
   color: var(--white-color);
 }
 
+.badge {
+  display: inline-block;
+  background-color: #198754; /* High-contrast green */
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px; /* pill shape */
+  text-decoration: none; /* remove underline */
+  text-transform: uppercase; /* make text all caps */
+}
 
+.badge:hover {
+  background-color: #157347; /* darker green on hover */
+  color: #fff;
+}
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
